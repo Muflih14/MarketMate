@@ -1,0 +1,177 @@
+.display-large {
+  @include display-large
+}
+
+.display-medium {
+  @include display-medium
+}
+
+.display-small {
+  @include display-small
+}
+
+.headline-large {
+  @include headline-large
+}
+
+.headline-medium {
+  @include headline-medium
+}
+
+.headline-small {
+  @include headline-small
+}
+
+.sub-headline-large {
+  @include sub-headline-large
+}
+
+.sub-headline-medium {
+  @include sub-headline-medium
+}
+
+.sub-headline-small {
+  @include sub-headline-small
+}
+
+.title-large {
+  @include title-large
+}
+
+.title-medium {
+  @include title-medium
+}
+
+.title-small {
+  @include title-small
+}
+
+.label-large {
+  @include label-large
+}
+
+.label-medium {
+  @include label-medium
+}
+
+.label-small {
+  @include label-small
+}
+
+.body-large {
+  @include body-large
+}
+
+.body-large-bold {
+  @include body-large-bold
+}
+
+.body-medium {
+  @include body-medium
+}
+
+.body-medium-bold {
+  @include body-medium-bold
+}
+
+.body-small {
+  @include body-small
+}
+
+.body-small-bold {
+  @include body-small-bold
+}
+
+.button-large {
+  @include button-large
+}
+
+.button-medium {
+  @include button-medium
+}
+
+.button-small {
+  @include button-small
+}
+
+.input-large {
+  @include input-large
+}
+
+.input-medium {
+  @include input-medium
+}
+
+.input-small {
+  @include input-small
+}
+
+/* https://fontsource.org/docs/getting-started/material-icons */
+
+.material-icons {
+  font-family: $icon-mui-font;
+  font-weight: 400;
+  display: inline-block;
+  text-transform: none;
+  letter-spacing: normal;
+  overflow-wrap: normal;
+  white-space: nowrap;
+  direction: ltr;
+
+  /* Support for all WebKit browsers. */
+  -webkit-font-smoothing: antialiased;
+
+  /* Support for Safari and Chrome. */
+  text-rendering: optimizelegibility;
+
+  /* Support for Firefox. */
+  -moz-osx-font-smoothing: grayscale;
+
+  /* Support for IE. */
+  font-feature-settings: 'liga';
+
+  &.s,
+  &.sm,
+  &.small {
+    font-size: 1rem;
+    line-height: 1rem;
+  }
+
+  &.m,
+  &.md,
+  &.medium {
+    font-size: 1.5rem;
+    line-height: 1.5rem;
+  }
+
+  &.l,
+  &.lg,
+  &.large {
+    font-size: 2rem;
+    line-height: 2rem;
+  }
+
+  &.xl,
+  &.xlarge {
+    font-size: 2.5rem;
+    line-height: 2.5rem;
+  }
+
+  &.xxl,
+  &.xxlarge {
+    font-size: 3rem;
+    line-height: 3rem;
+  }
+
+  &.xxxl,
+  &.xxxlarge {
+    font-size: 4rem;
+    line-height: 4rem;
+  }
+
+  &.xxxxl,
+  &.xxxxlarge {
+    font-size: 5rem;
+    line-height: 5rem;
+  }
+}

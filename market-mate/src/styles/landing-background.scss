@@ -1,0 +1,55 @@
+@use 'sass:color';
+
+$cream: #fff6e8;
+$sage: #b9cc81;
+$olive: #808000;
+
+$sage-soft: color.mix($cream, $sage, 72%);
+$olive-shade: color.mix($cream, $olive, 58%);
+$olive-deep: color.mix($cream, $olive, 70%);
+
+@mixin landing-background {
+  background-color: $cream;
+  background-image:
+    radial-gradient(
+      ellipse 46% 40% at -8% -4%,
+      rgb(128 128 0 / 24%),
+      transparent 64%
+    ),
+    radial-gradient(
+      ellipse 48% 38% at 100% -8%,
+      rgb(185 204 129 / 38%),
+      transparent 68%
+    ),
+    linear-gradient(
+      180deg,
+      $cream 0%,
+      $cream 76%,
+      $olive-shade 90%,
+      $sage-soft 96%,
+      $sage 100%
+    );
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+}
+
+html.landing-page {
+  --text: #5c564c;
+  --text-h: #2c261c;
+  --bg: #{$cream};
+  --border: #{color.mix($cream, $olive-deep, 55%)};
+  --code-bg: #f8f1e3;
+  --social-bg: rgb(255 246 232 / 72%);
+
+  color: var(--text);
+  color-scheme: light;
+  min-height: 100%;
+
+  @include landing-background;
+
+  body,
+  #root {
+    min-height: 100%;
+    background: transparent;
+  }
+}

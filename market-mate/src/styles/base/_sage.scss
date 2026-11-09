@@ -1,0 +1,18 @@
+/*
+ * RSuite's default primary scale is blue. Override it with the sage
+ * tokens from _colors.scss. Derived button, link, and focus colors
+ * read these variables, so they follow the same scale.
+ */
+
+:root {
+  --rs-primary-50: #{$primary-99};
+  --rs-primary-100: #{$primary-95};
+  --rs-primary-200: #{$primary-90};
+  --rs-primary-300: #{$primary-80};
+  --rs-primary-400: #{$primary-70};
+  --rs-primary-500: #{$primary-50};
+  --rs-primary-600: #{$primary-40};
+  --rs-primary-700: #{$primary-30};
+  --rs-primary-800: #{$primary-20};
+  --rs-primary-900: #{$primary-10};
+}

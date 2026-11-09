@@ -1,0 +1,28 @@
+/* Tweak ReCharts settings */
+
+.recharts-default-legend {
+  display: flex;
+  justify-content: flex-start;
+  flex-wrap: wrap;
+}
+
+.recharts-legend-item {
+  margin: 8px;
+}
+
+/* It's not related to recharts lib but used in our custom chart components */
+.in-chart {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+
+  &.rs-loader-wrapper {
+    .rs-loader-spin {
+      &::before,
+      &::after {
+        width: 64px;
+        height: 64px;
+      }
+    }
+  }
+}

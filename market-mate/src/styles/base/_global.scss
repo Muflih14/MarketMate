@@ -1,0 +1,54 @@
+body,
+html {
+  -moz-osx-font-smoothing: grayscale;
+  -webkit-font-smoothing: antialiased;
+  color: $text-color;
+  font: 16px $body-font-family;
+  line-height: 0.9rem;
+}
+
+.fa-huge {
+  font-size: 8rem;
+}
+
+h1 {
+  @include title-large;
+}
+
+h4 {
+  @include body-medium-bold;
+}
+
+a,
+p,
+label {
+  @include body-medium;
+}
+
+.title {
+  @include title-large;
+
+  color: $neutral-40;
+}
+
+.subtitle,
+.label {
+  @include body-medium;
+
+  color: $neutral-50;
+}
+
+.value {
+  @include body-medium-bold;
+
+  color: $neutral-30;
+}
+
+.pointer {
+  cursor: pointer;
+}
+
+.table-word-wrap {
+  white-space: pre-line !important;
+  overflow-wrap: break-word;
+}

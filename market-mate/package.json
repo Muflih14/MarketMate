@@ -19,10 +19,23 @@
     "test": "pnpm lint && pnpm typecheck"
   },
   "dependencies": {
+    "@fontsource/manrope": "^5.3.0",
+    "@fontsource/material-symbols-outlined": "^5.3.9",
+    "@rsuite/icons": "^1.4.1",
+    "bootstrap": "^5.3.8",
+    "date-fns": "^4.4.0",
+    "lodash-es": "^4.18.1",
     "react": "^19.3.1",
-    "react-dom": "^19.3.1"
+    "react-dom": "^19.3.1",
+    "react-intl": "^12.1.7",
+    "react-router": "^8.5.1",
+    "recharts": "^3.10.1",
+    "rsuite": "^6.2.5",
+    "uuid": "^14.0.3",
+    "yup": "^1.7.1"
   },
   "devDependencies": {
+    "@types/lodash-es": "^4.17.12",
     "@types/node": "^24.19.2",
     "@types/react": "^19.3.0",
     "@types/react-dom": "^19.3.0",
@@ -30,6 +43,7 @@
     "eslint-plugin-simple-import-sort": "14.0.0",
     "oxfmt": "0.74.0",
     "oxlint": "^1.90.0",
+    "sass": "^1.108.1",
     "stylelint": "17.16.0",
     "stylelint-config-standard": "40.0.0",
     "typescript": "~7.0.2",
