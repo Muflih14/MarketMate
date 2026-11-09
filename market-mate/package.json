@@ -1,0 +1,39 @@
+{
+  "name": "market-mate",
+  "version": "0.0.0",
+  "private": true,
+  "type": "module",
+  "scripts": {
+    "dev": "vite",
+    "build": "tsc -b && vite build",
+    "preview": "vite preview",
+    "typecheck": "tsc -b",
+    "fmt": "oxfmt --check -c .oxfmtrc.jsonc",
+    "fmt:fix": "oxfmt -c .oxfmtrc.jsonc",
+    "lint:oxlint": "oxlint -c .oxlintrc.json",
+    "lint:oxlint:fix": "oxlint -c .oxlintrc.json --fix",
+    "lint:css": "stylelint \"src/**/*.css\" --config .stylelintrc.json",
+    "lint:css:fix": "stylelint \"src/**/*.css\" --config .stylelintrc.json --fix",
+    "lint": "pnpm fmt && pnpm lint:oxlint && pnpm lint:css",
+    "lint:fix": "pnpm fmt:fix && pnpm lint:oxlint:fix && pnpm lint:css:fix",
+    "test": "pnpm lint && pnpm typecheck"
+  },
+  "dependencies": {
+    "react": "^19.3.1",
+    "react-dom": "^19.3.1"
+  },
+  "devDependencies": {
+    "@types/node": "^24.19.2",
+    "@types/react": "^19.3.0",
+    "@types/react-dom": "^19.3.0",
+    "@vitejs/plugin-react": "^6.1.2",
+    "eslint-plugin-simple-import-sort": "14.0.0",
+    "oxfmt": "0.74.0",
+    "oxlint": "^1.90.0",
+    "stylelint": "17.16.0",
+    "stylelint-config-standard": "40.0.0",
+    "typescript": "~7.0.2",
+    "vite": "^8.3.6"
+  },
+  "packageManager": "pnpm@10.17.1"
+}

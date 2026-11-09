@@ -1,0 +1,7 @@
+{
+  "extends": ["stylelint-config-standard"],
+  "ignoreFiles": ["**/dist/**/*.css", "**/coverage/**/*.css"],
+  "rules": {
+    "media-feature-range-notation": "prefix"
+  }
+}

@@ -1,0 +1,21 @@
+{
+  "$schema": "./node_modules/oxlint/configuration_schema.json",
+  "plugins": ["eslint", "oxc", "promise", "react", "react-perf", "typescript", "unicorn"],
+  "jsPlugins": ["eslint-plugin-simple-import-sort"],
+  "categories": {
+    "correctness": "error"
+  },
+  "env": {
+    "builtin": true,
+    "browser": true,
+    "node": true
+  },
+  "ignorePatterns": ["**/dist/", "**/coverage/"],
+  "rules": {
+    "react/rules-of-hooks": "error",
+    "react/only-export-components": ["warn", {"allowConstantExport": true}],
+    "simple-import-sort/imports": "error",
+    "simple-import-sort/exports": "error",
+    "no-duplicate-imports": "error"
+  }
+}
