@@ -1,0 +1,226 @@
+/*
+ ******************************************************************************
+ ** fonts
+ ******************************************************************************
+ */
+
+$body-font-family: manrope, helvetica, arial, sans-serif;
+$icon-mui-font: "Material Symbols Outlined";
+
+/* STYLE -------------------------------------------------------------------- */
+
+@mixin font-regular {
+  font-style: normal;
+  font-weight: 400;
+}
+
+@mixin font-bold {
+  font-style: normal;
+  font-weight: 600;
+}
+
+@mixin font-bolder {
+  font-style: normal;
+  font-weight: 700;
+}
+
+/* DISPLAY ------------------------------------------------------------------ */
+
+@mixin display-large {
+  @include font-bolder;
+
+  font-size: 57px;
+  line-height: 64px;
+  letter-spacing: -0.25px;
+}
+
+@mixin display-medium {
+  @include font-bolder;
+
+  font-size: 45px;
+  line-height: 52px;
+}
+
+@mixin display-small {
+  @include font-bolder;
+
+  font-size: 36px;
+  line-height: 44px;
+}
+
+/* HEADLINE ----------------------------------------------------------------- */
+
+@mixin headline-large {
+  @include font-bolder;
+
+  font-size: 32px;
+  line-height: 40px;
+}
+
+@mixin headline-medium {
+  @include font-bolder;
+
+  font-size: 28px;
+  line-height: 36px;
+}
+
+@mixin headline-small {
+  @include font-bolder;
+
+  font-size: 24px;
+  line-height: 32px;
+}
+
+/* SUB-HEADLINE ------------------------------------------------------------- */
+
+@mixin sub-headline-large {
+  @include font-bold;
+
+  font-size: 18px;
+  line-height: 24px;
+}
+
+@mixin sub-headline-medium {
+  @include font-bold;
+
+  font-size: 16px;
+  line-height: 24px;
+}
+
+@mixin sub-headline-small {
+  @include font-bold;
+
+  font-size: 14px;
+  line-height: 20px;
+}
+
+/* TITLE ------------------------------------------------------------------ */
+
+@mixin title-large {
+  @include font-bolder;
+
+  font-size: 20px;
+  line-height: 28px;
+}
+
+@mixin title-medium {
+  @include font-bold;
+
+  font-size: 16px;
+  line-height: 20px;
+}
+
+@mixin title-small {
+  @include font-regular;
+
+  font-size: 14px;
+  line-height: 20px;
+}
+
+/* LABEL -------------------------------------------------------------------- */
+
+@mixin label-large {
+  @include font-bold;
+
+  font-size: 14px;
+  line-height: 20px;
+}
+
+@mixin label-medium {
+  @include font-bold;
+
+  font-size: 12px;
+  line-height: 16px;
+}
+
+@mixin label-small {
+  @include font-bold;
+
+  font-size: 11px;
+  line-height: 16px;
+}
+
+/* BODY --------------------------------------------------------------------- */
+
+@mixin body-large {
+  @include font-regular;
+
+  font-size: 16px;
+  line-height: 24px;
+}
+
+@mixin body-large-bold {
+  @include body-large;
+  @include font-bolder;
+}
+
+@mixin body-medium {
+  @include font-regular;
+
+  font-size: 14px;
+  line-height: 20px;
+}
+
+@mixin body-medium-bold {
+  @include body-medium;
+  @include font-bolder;
+}
+
+@mixin body-small {
+  @include font-regular;
+
+  font-size: 12px;
+  line-height: 16px;
+}
+
+@mixin body-small-bold {
+  @include body-small;
+  @include font-bolder;
+}
+
+/* BUTTON ------------------------------------------------------------------- */
+
+@mixin button-large {
+  @include font-bold;
+
+  font-size: 16px;
+  line-height: 22px;
+}
+
+@mixin button-medium {
+  @include font-bold;
+
+  font-size: 14px;
+  line-height: 20px;
+}
+
+@mixin button-small {
+  @include font-regular;
+
+  font-size: 12px;
+  line-height: 20px;
+}
+
+/* INPUT -------------------------------------------------------------------- */
+
+@mixin input-large {
+  @include font-bold;
+
+  font-size: 15px;
+  line-height: 20px;
+  letter-spacing: 0.05em;
+}
+
+@mixin input-medium {
+  @include font-bold;
+
+  font-size: 13px;
+  line-height: 18px;
+}
+
+@mixin input-small {
+  @include font-regular;
+
+  font-size: 11px;
+  line-height: 15px;
+}

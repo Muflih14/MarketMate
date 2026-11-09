@@ -1,0 +1,33 @@
+.rs-btn[data-appearance="ghost"].filter-button {
+  color: $neutral;
+  border-color: $neutral-90;
+
+  &:hover {
+    color: $neutral;
+    border: 1px solid $neutral-90;
+    box-shadow: 0 0 0 1px $neutral;
+  }
+}
+
+.filter-panel {
+  .filter-title {
+    @include body-medium;
+  }
+
+  .rs-panel {
+    padding: 0;
+    margin: 0;
+  }
+
+  .filter-label {
+    @include body-small;
+  }
+
+  .filter-input {
+    width: 280px;
+  }
+
+  .rs-form-group {
+    margin-block: 15px 0;
+  }
+}
