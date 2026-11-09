@@ -1,0 +1,50 @@
+.rs-input-group .rs-form-control-wrapper {
+  flex: 1 1 auto;
+  min-width: 0;
+
+  > .rs-auto-complete {
+    width: 100%;
+
+    > .rs-input {
+      border: none;
+      border-radius: 0;
+      outline: none;
+      height: var(--rs-input-group-input-height);
+    }
+  }
+}
+
+.multi-form {
+  .single-form {
+    .rs-panel-title {
+      @include sub-headline-medium;
+    }
+  }
+
+  .single-row {
+    border-radius: 8px;
+    padding: 6px 16px;
+    background-color: $neutral-99;
+    border: 1px solid $neutral-95;
+    margin-block-end: 8px;
+    height: 48px;
+
+    h4,
+    p {
+      margin: 0;
+    }
+  }
+}
+
+.wizard-form {
+  display: flex;
+  flex-direction: column;
+}
+
+.wizard-form-body {
+  flex: 1;
+}
+
+.wizard-deck {
+  padding: 1rem 0;
+}

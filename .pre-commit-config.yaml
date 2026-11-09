@@ -67,6 +67,7 @@ repos:
         additional_dependencies:
           - stylelint@17.16.0
           - stylelint-config-standard@40.0.0
+          - postcss-scss@4.0.9
 
   - repo: https://github.com/oxc-project/mirrors-oxfmt
     rev: v0.74.0

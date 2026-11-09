@@ -1,0 +1,56 @@
+@use "sass:list";
+@use "sass:map";
+
+$enable-dark-mode: false;
+
+@import "bootstrap/scss/functions";
+@import "bootstrap/scss/variables";
+@import "bootstrap/scss/maps";
+@import "bootstrap/scss/mixins";
+@import "bootstrap/scss/utilities";
+
+$bootstrap-utilities: (
+  "display",
+  "float",
+  "border",
+  "border-color",
+  "margin",
+  "margin-x",
+  "margin-y",
+  "margin-top",
+  "margin-end",
+  "margin-bottom",
+  "margin-start",
+  "padding",
+  "padding-x",
+  "padding-y",
+  "padding-top",
+  "padding-end",
+  "padding-bottom",
+  "padding-start",
+  "gap",
+  "text-align",
+  "white-space",
+  "color",
+  "text-color",
+  "rounded",
+);
+
+$trimmed: ();
+
+@each $name, $utility in $utilities {
+  @if list.index($bootstrap-utilities, $name) {
+    $trimmed: map.merge($trimmed, ($name: map.merge($utility, (responsive: false))));
+  }
+}
+
+$utilities: $trimmed;
+
+@import "bootstrap/scss/root";
+@import "bootstrap/scss/reboot";
+@import "bootstrap/scss/type";
+@import "bootstrap/scss/utilities/api";
+
+.text-muted {
+  color: $neutral-40;
+}

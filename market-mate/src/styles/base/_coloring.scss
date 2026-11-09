@@ -1,0 +1,380 @@
+.bg-default { background-color: $background-color; }
+.bg-dark { background-color: $black; }
+.bg-light { background-color: $white; }
+.bg-none { background-color: transparent; }
+
+/* Primary ------------------------------------------------------------------ */
+
+.text-primary { color: $primary; }
+.text-primary-0 { color: $primary-0; }
+.text-primary-10 { color: $primary-10; }
+.text-primary-20 { color: $primary-20; }
+.text-primary-30 { color: $primary-30; }
+.text-primary-40 { color: $primary-40; }
+.text-primary-50 { color: $primary-50; }
+.text-primary-60 { color: $primary-60; }
+.text-primary-70 { color: $primary-70; }
+.text-primary-80 { color: $primary-80; }
+.text-primary-90 { color: $primary-90; }
+.text-primary-95 { color: $primary-95; }
+.text-primary-99 { color: $primary-99; }
+.text-primary-100 { color: $primary-100; }
+
+.bg-primary { background-color: $primary; }
+.bg-primary-0 { background-color: $primary-0; }
+.bg-primary-10 { background-color: $primary-10; }
+.bg-primary-20 { background-color: $primary-20; }
+.bg-primary-30 { background-color: $primary-30; }
+.bg-primary-40 { background-color: $primary-40; }
+.bg-primary-50 { background-color: $primary-50; }
+.bg-primary-60 { background-color: $primary-60; }
+.bg-primary-70 { background-color: $primary-70; }
+.bg-primary-80 { background-color: $primary-80; }
+.bg-primary-90 { background-color: $primary-90; }
+.bg-primary-95 { background-color: $primary-95; }
+.bg-primary-99 { background-color: $primary-99; }
+.bg-primary-100 { background-color: $primary-100; }
+
+.fill-primary { fill: $primary; }
+.fill-primary-0 { fill: $primary-0; }
+.fill-primary-10 { fill: $primary-10; }
+.fill-primary-20 { fill: $primary-20; }
+.fill-primary-30 { fill: $primary-30; }
+.fill-primary-40 { fill: $primary-40; }
+.fill-primary-50 { fill: $primary-50; }
+.fill-primary-60 { fill: $primary-60; }
+.fill-primary-70 { fill: $primary-70; }
+.fill-primary-80 { fill: $primary-80; }
+.fill-primary-90 { fill: $primary-90; }
+.fill-primary-95 { fill: $primary-95; }
+.fill-primary-99 { fill: $primary-99; }
+.fill-primary-100 { fill: $primary-100; }
+
+/* Secondary ---------------------------------------------------------------- */
+
+.text-secondary { color: $secondary; }
+.text-secondary-0 { color: $secondary-0; }
+.text-secondary-10 { color: $secondary-10; }
+.text-secondary-20 { color: $secondary-20; }
+.text-secondary-30 { color: $secondary-30; }
+.text-secondary-40 { color: $secondary-40; }
+.text-secondary-50 { color: $secondary-50; }
+.text-secondary-60 { color: $secondary-60; }
+.text-secondary-70 { color: $secondary-70; }
+.text-secondary-80 { color: $secondary-80; }
+.text-secondary-90 { color: $secondary-90; }
+.text-secondary-95 { color: $secondary-95; }
+.text-secondary-99 { color: $secondary-99; }
+.text-secondary-100 { color: $secondary-100; }
+
+.bg-secondary { background-color: $secondary; }
+.bg-secondary-0 { background-color: $secondary-0; }
+.bg-secondary-10 { background-color: $secondary-10; }
+.bg-secondary-20 { background-color: $secondary-20; }
+.bg-secondary-30 { background-color: $secondary-30; }
+.bg-secondary-40 { background-color: $secondary-40; }
+.bg-secondary-50 { background-color: $secondary-50; }
+.bg-secondary-60 { background-color: $secondary-60; }
+.bg-secondary-70 { background-color: $secondary-70; }
+.bg-secondary-80 { background-color: $secondary-80; }
+.bg-secondary-90 { background-color: $secondary-90; }
+.bg-secondary-95 { background-color: $secondary-95; }
+.bg-secondary-99 { background-color: $secondary-99; }
+.bg-secondary-100 { background-color: $secondary-100; }
+
+.fill-secondary { fill: $secondary; }
+.fill-secondary-0 { fill: $secondary-0; }
+.fill-secondary-10 { fill: $secondary-10; }
+.fill-secondary-20 { fill: $secondary-20; }
+.fill-secondary-30 { fill: $secondary-30; }
+.fill-secondary-40 { fill: $secondary-40; }
+.fill-secondary-50 { fill: $secondary-50; }
+.fill-secondary-60 { fill: $secondary-60; }
+.fill-secondary-70 { fill: $secondary-70; }
+.fill-secondary-80 { fill: $secondary-80; }
+.fill-secondary-90 { fill: $secondary-90; }
+.fill-secondary-95 { fill: $secondary-95; }
+.fill-secondary-99 { fill: $secondary-99; }
+.fill-secondary-100 { fill: $secondary-100; }
+
+/* Tertiary ----------------------------------------------------------------- */
+
+.text-tertiary { color: $tertiary; }
+.text-tertiary-0 { color: $tertiary-0; }
+.text-tertiary-10 { color: $tertiary-10; }
+.text-tertiary-20 { color: $tertiary-20; }
+.text-tertiary-30 { color: $tertiary-30; }
+.text-tertiary-40 { color: $tertiary-40; }
+.text-tertiary-50 { color: $tertiary-50; }
+.text-tertiary-60 { color: $tertiary-60; }
+.text-tertiary-70 { color: $tertiary-70; }
+.text-tertiary-80 { color: $tertiary-80; }
+.text-tertiary-90 { color: $tertiary-90; }
+.text-tertiary-95 { color: $tertiary-95; }
+.text-tertiary-99 { color: $tertiary-99; }
+.text-tertiary-100 { color: $tertiary-100; }
+
+.bg-tertiary { background-color: $tertiary; }
+.bg-tertiary-0 { background-color: $tertiary-0; }
+.bg-tertiary-10 { background-color: $tertiary-10; }
+.bg-tertiary-20 { background-color: $tertiary-20; }
+.bg-tertiary-30 { background-color: $tertiary-30; }
+.bg-tertiary-40 { background-color: $tertiary-40; }
+.bg-tertiary-50 { background-color: $tertiary-50; }
+.bg-tertiary-60 { background-color: $tertiary-60; }
+.bg-tertiary-70 { background-color: $tertiary-70; }
+.bg-tertiary-80 { background-color: $tertiary-80; }
+.bg-tertiary-90 { background-color: $tertiary-90; }
+.bg-tertiary-95 { background-color: $tertiary-95; }
+.bg-tertiary-99 { background-color: $tertiary-99; }
+.bg-tertiary-100 { background-color: $tertiary-100; }
+
+.fill-tertiary { fill: $tertiary; }
+.fill-tertiary-0 { fill: $tertiary-0; }
+.fill-tertiary-10 { fill: $tertiary-10; }
+.fill-tertiary-20 { fill: $tertiary-20; }
+.fill-tertiary-30 { fill: $tertiary-30; }
+.fill-tertiary-40 { fill: $tertiary-40; }
+.fill-tertiary-50 { fill: $tertiary-50; }
+.fill-tertiary-60 { fill: $tertiary-60; }
+.fill-tertiary-70 { fill: $tertiary-70; }
+.fill-tertiary-80 { fill: $tertiary-80; }
+.fill-tertiary-90 { fill: $tertiary-90; }
+.fill-tertiary-95 { fill: $tertiary-95; }
+.fill-tertiary-99 { fill: $tertiary-99; }
+.fill-tertiary-100 { fill: $tertiary-100; }
+
+/* Error -------------------------------------------------------------------- */
+
+.text-error { color: $error; }
+.text-error-0 { color: $error-0; }
+.text-error-10 { color: $error-10; }
+.text-error-20 { color: $error-20; }
+.text-error-30 { color: $error-30; }
+.text-error-40 { color: $error-40; }
+.text-error-50 { color: $error-50; }
+.text-error-60 { color: $error-60; }
+.text-error-70 { color: $error-70; }
+.text-error-80 { color: $error-80; }
+.text-error-90 { color: $error-90; }
+.text-error-95 { color: $error-95; }
+.text-error-99 { color: $error-99; }
+.text-error-100 { color: $error-100; }
+
+.bg-error { background-color: $error; }
+.bg-error-0 { background-color: $error-0; }
+.bg-error-10 { background-color: $error-10; }
+.bg-error-20 { background-color: $error-20; }
+.bg-error-30 { background-color: $error-30; }
+.bg-error-40 { background-color: $error-40; }
+.bg-error-50 { background-color: $error-50; }
+.bg-error-60 { background-color: $error-60; }
+.bg-error-70 { background-color: $error-70; }
+.bg-error-80 { background-color: $error-80; }
+.bg-error-90 { background-color: $error-90; }
+.bg-error-95 { background-color: $error-95; }
+.bg-error-99 { background-color: $error-99; }
+.bg-error-100 { background-color: $error-100; }
+
+.fill-error { fill: $error; }
+.fill-error-0 { fill: $error-0; }
+.fill-error-10 { fill: $error-10; }
+.fill-error-20 { fill: $error-20; }
+.fill-error-30 { fill: $error-30; }
+.fill-error-40 { fill: $error-40; }
+.fill-error-50 { fill: $error-50; }
+.fill-error-60 { fill: $error-60; }
+.fill-error-70 { fill: $error-70; }
+.fill-error-80 { fill: $error-80; }
+.fill-error-90 { fill: $error-90; }
+.fill-error-95 { fill: $error-95; }
+.fill-error-99 { fill: $error-99; }
+.fill-error-100 { fill: $error-100; }
+
+/* Neutral ------------------------------------------------------------------ */
+
+.text-neutral { color: $neutral; }
+.text-neutral-0 { color: $neutral-0; }
+.text-neutral-10 { color: $neutral-10; }
+.text-neutral-20 { color: $neutral-20; }
+.text-neutral-30 { color: $neutral-30; }
+.text-neutral-40 { color: $neutral-40; }
+.text-neutral-50 { color: $neutral-50; }
+.text-neutral-60 { color: $neutral-60; }
+.text-neutral-70 { color: $neutral-70; }
+.text-neutral-80 { color: $neutral-80; }
+.text-neutral-90 { color: $neutral-90; }
+.text-neutral-95 { color: $neutral-95; }
+.text-neutral-99 { color: $neutral-99; }
+.text-neutral-100 { color: $neutral-100; }
+
+.bg-neutral { background-color: $neutral; }
+.bg-neutral-0 { background-color: $neutral-0; }
+.bg-neutral-10 { background-color: $neutral-10; }
+.bg-neutral-20 { background-color: $neutral-20; }
+.bg-neutral-30 { background-color: $neutral-30; }
+.bg-neutral-40 { background-color: $neutral-40; }
+.bg-neutral-50 { background-color: $neutral-50; }
+.bg-neutral-60 { background-color: $neutral-60; }
+.bg-neutral-70 { background-color: $neutral-70; }
+.bg-neutral-80 { background-color: $neutral-80; }
+.bg-neutral-90 { background-color: $neutral-90; }
+.bg-neutral-95 { background-color: $neutral-95; }
+.bg-neutral-99 { background-color: $neutral-99; }
+.bg-neutral-100 { background-color: $neutral-100; }
+
+.fill-neutral { fill: $neutral; }
+.fill-neutral-0 { fill: $neutral-0; }
+.fill-neutral-10 { fill: $neutral-10; }
+.fill-neutral-20 { fill: $neutral-20; }
+.fill-neutral-30 { fill: $neutral-30; }
+.fill-neutral-40 { fill: $neutral-40; }
+.fill-neutral-50 { fill: $neutral-50; }
+.fill-neutral-60 { fill: $neutral-60; }
+.fill-neutral-70 { fill: $neutral-70; }
+.fill-neutral-80 { fill: $neutral-80; }
+.fill-neutral-90 { fill: $neutral-90; }
+.fill-neutral-95 { fill: $neutral-95; }
+.fill-neutral-99 { fill: $neutral-99; }
+.fill-neutral-100 { fill: $neutral-100; }
+
+/* Green -------------------------------------------------------------------- */
+
+.text-green { color: $green; }
+.text-green-0 { color: $green-0; }
+.text-green-10 { color: $green-10; }
+.text-green-20 { color: $green-20; }
+.text-green-30 { color: $green-30; }
+.text-green-40 { color: $green-40; }
+.text-green-50 { color: $green-50; }
+.text-green-60 { color: $green-60; }
+.text-green-70 { color: $green-70; }
+.text-green-80 { color: $green-80; }
+.text-green-90 { color: $green-90; }
+.text-green-95 { color: $green-95; }
+.text-green-99 { color: $green-99; }
+.text-green-100 { color: $green-100; }
+
+.bg-green { background-color: $green; }
+.bg-green-0 { background-color: $green-0; }
+.bg-green-10 { background-color: $green-10; }
+.bg-green-20 { background-color: $green-20; }
+.bg-green-30 { background-color: $green-30; }
+.bg-green-40 { background-color: $green-40; }
+.bg-green-50 { background-color: $green-50; }
+.bg-green-60 { background-color: $green-60; }
+.bg-green-70 { background-color: $green-70; }
+.bg-green-80 { background-color: $green-80; }
+.bg-green-90 { background-color: $green-90; }
+.bg-green-95 { background-color: $green-95; }
+.bg-green-99 { background-color: $green-99; }
+.bg-green-100 { background-color: $green-100; }
+
+.fill-green { fill: $green; }
+.fill-green-0 { fill: $green-0; }
+.fill-green-10 { fill: $green-10; }
+.fill-green-20 { fill: $green-20; }
+.fill-green-30 { fill: $green-30; }
+.fill-green-40 { fill: $green-40; }
+.fill-green-50 { fill: $green-50; }
+.fill-green-60 { fill: $green-60; }
+.fill-green-70 { fill: $green-70; }
+.fill-green-80 { fill: $green-80; }
+.fill-green-90 { fill: $green-90; }
+.fill-green-95 { fill: $green-95; }
+.fill-green-99 { fill: $green-99; }
+.fill-green-100 { fill: $green-100; }
+
+/* Red ---------------------------------------------------------------------- */
+
+.text-red { color: $red; }
+.text-red-0 { color: $red-0; }
+.text-red-10 { color: $red-10; }
+.text-red-20 { color: $red-20; }
+.text-red-30 { color: $red-30; }
+.text-red-40 { color: $red-40; }
+.text-red-50 { color: $red-50; }
+.text-red-60 { color: $red-60; }
+.text-red-70 { color: $red-70; }
+.text-red-80 { color: $red-80; }
+.text-red-90 { color: $red-90; }
+.text-red-95 { color: $red-95; }
+.text-red-99 { color: $red-99; }
+.text-red-100 { color: $red-100; }
+
+.bg-red { background-color: $red; }
+.bg-red-0 { background-color: $red-0; }
+.bg-red-10 { background-color: $red-10; }
+.bg-red-20 { background-color: $red-20; }
+.bg-red-30 { background-color: $red-30; }
+.bg-red-40 { background-color: $red-40; }
+.bg-red-50 { background-color: $red-50; }
+.bg-red-60 { background-color: $red-60; }
+.bg-red-70 { background-color: $red-70; }
+.bg-red-80 { background-color: $red-80; }
+.bg-red-90 { background-color: $red-90; }
+.bg-red-95 { background-color: $red-95; }
+.bg-red-99 { background-color: $red-99; }
+.bg-red-100 { background-color: $red-100; }
+
+.fill-red { fill: $red; }
+.fill-red-0 { fill: $red-0; }
+.fill-red-10 { fill: $red-10; }
+.fill-red-20 { fill: $red-20; }
+.fill-red-30 { fill: $red-30; }
+.fill-red-40 { fill: $red-40; }
+.fill-red-50 { fill: $red-50; }
+.fill-red-60 { fill: $red-60; }
+.fill-red-70 { fill: $red-70; }
+.fill-red-80 { fill: $red-80; }
+.fill-red-90 { fill: $red-90; }
+.fill-red-95 { fill: $red-95; }
+.fill-red-99 { fill: $red-99; }
+.fill-red-100 { fill: $red-100; }
+
+/* Orange ------------------------------------------------------------------- */
+
+.text-orange { color: $orange; }
+.text-orange-0 { color: $orange-0; }
+.text-orange-10 { color: $orange-10; }
+.text-orange-20 { color: $orange-20; }
+.text-orange-30 { color: $orange-30; }
+.text-orange-40 { color: $orange-40; }
+.text-orange-50 { color: $orange-50; }
+.text-orange-60 { color: $orange-60; }
+.text-orange-70 { color: $orange-70; }
+.text-orange-80 { color: $orange-80; }
+.text-orange-90 { color: $orange-90; }
+.text-orange-95 { color: $orange-95; }
+.text-orange-99 { color: $orange-99; }
+.text-orange-100 { color: $orange-100; }
+
+.bg-orange { background-color: $orange; }
+.bg-orange-0 { background-color: $orange-0; }
+.bg-orange-10 { background-color: $orange-10; }
+.bg-orange-20 { background-color: $orange-20; }
+.bg-orange-30 { background-color: $orange-30; }
+.bg-orange-40 { background-color: $orange-40; }
+.bg-orange-50 { background-color: $orange-50; }
+.bg-orange-60 { background-color: $orange-60; }
+.bg-orange-70 { background-color: $orange-70; }
+.bg-orange-80 { background-color: $orange-80; }
+.bg-orange-90 { background-color: $orange-90; }
+.bg-orange-95 { background-color: $orange-95; }
+.bg-orange-99 { background-color: $orange-99; }
+.bg-orange-100 { background-color: $orange-100; }
+
+.fill-orange { fill: $orange; }
+.fill-orange-0 { fill: $orange-0; }
+.fill-orange-10 { fill: $orange-10; }
+.fill-orange-20 { fill: $orange-20; }
+.fill-orange-30 { fill: $orange-30; }
+.fill-orange-40 { fill: $orange-40; }
+.fill-orange-50 { fill: $orange-50; }
+.fill-orange-60 { fill: $orange-60; }
+.fill-orange-70 { fill: $orange-70; }
+.fill-orange-80 { fill: $orange-80; }
+.fill-orange-90 { fill: $orange-90; }
+.fill-orange-95 { fill: $orange-95; }
+.fill-orange-99 { fill: $orange-99; }
+.fill-orange-100 { fill: $orange-100; }

@@ -1,0 +1,86 @@
+.market-mate-home {
+  width: min(640px, 100%);
+  margin: 48px auto;
+  padding: 0 24px;
+  text-align: left;
+
+  h1 {
+    margin: 0 0 8px;
+    font-size: 40px;
+    letter-spacing: -0.8px;
+  }
+
+  .market-mate-intro {
+    margin: 0 0 24px;
+    color: $neutral-40;
+  }
+
+  .market-mate-actions {
+    display: flex;
+    gap: 12px;
+    align-items: center;
+  }
+}
+
+.design-system {
+  width: min(1120px, 100%);
+  margin: 0 auto;
+  padding: 32px 24px 80px;
+
+  h1 {
+    margin: 0 0 8px;
+    font-size: 40px;
+    letter-spacing: -0.8px;
+  }
+
+  .ds-intro {
+    margin: 0 0 16px;
+    color: $neutral-40;
+  }
+
+  .ds-nav {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 8px 16px;
+    margin: 0 0 32px;
+
+    a {
+      color: $primary-40;
+    }
+  }
+
+  .ds-section {
+    padding: 8px 0 24px;
+    border-top: 1px solid $neutral-95;
+  }
+
+  .ds-row {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 16px;
+    align-items: center;
+  }
+
+  .ds-chart {
+    flex: 1 1 360px;
+    min-width: 320px;
+    max-width: 100%;
+  }
+
+  .ds-icons {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 12px;
+  }
+
+  .ds-icon {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 4px;
+    width: 88px;
+    text-align: center;
+    font-size: 12px;
+    color: $neutral-40;
+  }
+}
