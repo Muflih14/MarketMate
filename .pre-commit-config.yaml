@@ -1,0 +1,88 @@
+# See https://pre-commit.com for more information
+# See https://pre-commit.com/hooks.html for more hooks
+
+# Prefer the local Node (nvm/volta/system) over nodeenv's broken "default"
+# resolution, which can pick invalid pre-release versions.
+default_language_version:
+  node: system
+
+repos:
+  - repo: https://github.com/pre-commit/pre-commit-hooks
+    rev: v6.0.0
+    hooks:
+      - id: check-added-large-files
+        args: [--maxkb=100, --enforce-all]
+        exclude: |
+          (?x)(
+            ^market-mate/pnpm-lock\.yaml$
+          )
+      - id: check-case-conflict
+      - id: check-docstring-first
+      - id: check-json
+        # TypeScript configs are JSONC (comments allowed).
+        exclude: ^market-mate/tsconfig.*\.json$
+      - id: check-merge-conflict
+      - id: check-shebang-scripts-are-executable
+      - id: check-toml
+      - id: check-yaml
+      - id: detect-private-key
+      - id: end-of-file-fixer
+      - id: mixed-line-ending
+      - id: trailing-whitespace
+
+  - repo: https://github.com/rhysd/actionlint
+    rev: v1.7.12
+    hooks:
+      - id: actionlint
+
+  - repo: https://github.com/renovatebot/pre-commit-hooks
+    rev: 44.181.0
+    hooks:
+      - id: renovate-config-validator
+        args: [--strict]
+
+  - repo: https://github.com/gitleaks/gitleaks
+    rev: v8.30.1
+    hooks:
+      - id: gitleaks
+
+  - repo: https://github.com/shellcheck-py/shellcheck-py
+    rev: v0.11.0.1-1
+    hooks:
+      - id: shellcheck
+
+  - repo: https://github.com/thibaudcolas/pre-commit-stylelint
+    rev: v17.16.0
+    hooks:
+      - id: stylelint
+        name: Check sass/css files style
+        # Stylelint resolves `extends` from the config file directory, not from
+        # the hook's node_modules. Point configBasedir at that isolated env.
+        entry: bash -c 'exec stylelint --config-basedir "$(dirname "$(dirname "$(command -v stylelint)")")/lib" "$@"' --
+        args: [--fix, --config, market-mate/.stylelintrc.json]
+        files: ^market-mate/.*\.(css|scss)$
+        types: [file]
+        # Pin to Stylelint 17 — v18 dropped declaration-block-single-line-max-declarations
+        # while unpinned config packages still reference it (CI "Unknown rule" failures).
+        additional_dependencies:
+          - stylelint@17.16.0
+          - stylelint-config-standard@40.0.0
+
+  - repo: https://github.com/oxc-project/mirrors-oxfmt
+    rev: v0.74.0
+    hooks:
+      - id: oxfmt
+        args: [--config, market-mate/.oxfmtrc.jsonc]
+        files: ^market-mate/
+        additional_dependencies:
+          - oxfmt@0.74.0
+
+  - repo: https://github.com/oxc-project/mirrors-oxlint
+    rev: v1.89.0
+    hooks:
+      - id: oxlint
+        args: [-c, market-mate/.oxlintrc.json]
+        files: ^market-mate/
+        additional_dependencies:
+          - oxlint@1.90.0
+          - eslint-plugin-simple-import-sort@14.0.0

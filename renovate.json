@@ -1,0 +1,26 @@
+{
+  "$schema": "https://docs.renovatebot.com/renovate-schema.json",
+  "automerge": false,
+  "extends": [
+    ":configMigration",
+    ":enablePreCommit",
+    ":enableVulnerabilityAlerts",
+    ":ignoreModulesAndTests",
+    ":labels(build,dependencies)",
+    ":maintainLockFilesWeekly",
+    ":preserveSemverRanges",
+    ":semanticCommits",
+    ":semanticCommitScope(deps)",
+    ":semanticCommitType(build)",
+    ":separateMajorReleases",
+    "abandonments:recommended",
+    "config:recommended",
+    "group:monorepos",
+    "group:recommended",
+    "helpers:pinGitHubActionDigests",
+    "schedule:weekends",
+    "security:minimumReleaseAgeNpm"
+  ],
+  "minimumReleaseAge": "3 days",
+  "rebaseWhen": "behind-base-branch"
+}
