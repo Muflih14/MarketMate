@@ -14,4 +14,11 @@ export default defineConfig({
       '@core': path.resolve(rootDir, 'src/_core'),
     },
   },
+  css: {
+    preprocessorOptions: {
+      scss: {
+        silenceDeprecations: ['import', 'global-builtin', 'color-functions', 'if-function'],
+      },
+    },
+  },
 });
